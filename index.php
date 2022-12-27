@@ -13,6 +13,9 @@
     </head>
     <body>
         <div class="container">
+         <div class="logo">
+                <i class="fas fa-gas-pump fa-4x"></i>
+            </div>
             <div class="header">
                 <h1 class="header-title">Calculadora Álcool X Gasolina</h1>
             </div>            
@@ -26,9 +29,7 @@
                     do álcool e da gasolina e mostrar qual é o combustível mais vantajoso.                    
                 </p>
             </div>
-            <div class="logo">
-                <i class="fas fa-gas-pump fa-4x"></i>
-            </div>
+           
             <h1 class="title">Qual a melhor opção?</h1>
             <!--Sessão para msg de error =========================-->
                 <?php include 'msg_user.php';?>
